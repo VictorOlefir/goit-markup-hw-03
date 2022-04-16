@@ -362,6 +362,9 @@ img {
   border-width: 1px;
   border-color: #ececec;
   border-top: 0;
+  padding-left: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .portfolio-title {
   font-weight: 700;
@@ -369,15 +372,12 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-text-color);
-  margin-left: 24px;
 }
 .portfolio-text {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
-  margin-left: 24px;
-  margin-bottom: 20px;
 }
 .active-link {
   color: var(--active-color);
