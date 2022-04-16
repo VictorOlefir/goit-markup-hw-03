@@ -77,13 +77,16 @@ img {
   margin: -1px;
 }
 /*==========================++++++HEADER++++++==========================*/
-.header .container {
-  display: flex;
-  align-items: center;
-  height: 80px;
+.header {
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-color: #ececec;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.header .container {
+  display: flex;
+  align-items: center;
 }
 .header-logo {
   font-family: "Raleway";
@@ -141,10 +144,11 @@ img {
 
 /*==========================++++++HERO++++++==========================*/
 .hero .container {
-  height: 600px;
 }
 .hero {
   background: var(--bg-hero-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title-text {
   width: 700px;
@@ -155,7 +159,6 @@ img {
   text-transform: uppercase;
   color: var(--bg-white-color);
   text-align: center;
-  padding-top: 200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -178,9 +181,11 @@ img {
 }
 
 /*==========================++++++POSITIVE++++++==========================*/
+.positive {
+  padding-top: 94px;
+}
 .positive-list {
   display: flex;
-  padding-top: 100px;
 }
 .positive-item:not(:last-child) {
   margin-right: 30px;
@@ -202,8 +207,12 @@ img {
 }
 
 /*==========================++++++WORK++++++==========================*/
+.work {
+  padding-top: 50px;
+  padding-bottom: 94px;
+}
 .work-title {
-  padding-top: 90px;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -212,24 +221,33 @@ img {
 }
 .work-list {
   display: flex;
-  justify-content: space-between;
-  padding-top: 50px;
-  padding-bottom: 94px;
 }
-
+.work-item {
+  width: 370px;
+}
+.work-item:not(:last-child) {
+  margin-right: 30px;
+}
 /*==========================++++++STAFF++++++==========================*/
+.staff {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: #f5f4fa;
+}
 .staff-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-bottom: 50px;
 }
 .staff-list {
   display: flex;
-  justify-content: space-between;
-  padding-top: 50px;
-  padding-bottom: 94px;
+}
+.staff-title-top {
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .staff-item-title {
   font-weight: 500;
@@ -237,7 +255,6 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
-  margin-top: 30px;
 }
 .staff-item-text {
   font-size: 16px;
@@ -247,13 +264,14 @@ img {
   text-align: center;
   margin-top: 10px;
 }
-
-/*==========================++++++FOOTER++++++==========================*/
-.footer .container {
-  height: 252px;
+.staff-item:not(:last-child) {
+  margin-right: 30px;
 }
+/*==========================++++++FOOTER++++++==========================*/
 .footer {
   background-color: var(--bg-hero-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-logo {
   font-family: "Raleway";
@@ -263,7 +281,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--active-color);
   display: block;
-  padding-top: 75px;
+  margin-bottom: 20px;
 }
 .footer-logo2 {
   font-family: "Raleway";
@@ -273,16 +291,14 @@ img {
   letter-spacing: 0.03em;
   color: var(--inactive_btn_color);
 }
-.footer-list {
-  display: flex;
-  flex-direction: column;
-  margin-top: 20px;
-}
 .footer-item-white {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--bg-white-color);
+}
+.footer-li:not(:last-child) {
+  margin-bottom: 9px;
 }
 .footer-item {
   font-size: 14px;
@@ -301,9 +317,12 @@ img {
 }
 
 /*==========================++++++PORTFOLIO++++++==========================*/
+.portfolio {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
 .portfolio-btn-list {
   display: flex;
-  padding-top: 94px;
   justify-content: center;
 }
 .portfolio-btn {
@@ -336,17 +355,19 @@ img {
   width: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-bottom: 30px;
+  margin-top: 30px;
+}
+.portfolio-top {
   border-style: solid;
   border-width: 1px;
   border-color: #ececec;
+  border-top: 0;
 }
 .portfolio-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-top: 20px;
-  margin-bottom: 4px;
   color: var(--main-text-color);
   margin-left: 24px;
 }
@@ -356,6 +377,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--second-text-color);
   margin-left: 24px;
+  margin-bottom: 20px;
 }
 .active-link {
   color: var(--active-color);
