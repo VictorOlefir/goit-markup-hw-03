@@ -184,6 +184,9 @@ img {
 .positive-list {
   display: flex;
 }
+.positive-item {
+  width: 270px;
+}
 .positive-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -204,7 +207,7 @@ img {
 
 /*==========================++++++WORK++++++==========================*/
 .work {
-  padding-top: 50px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .work-title {
@@ -320,7 +323,7 @@ img {
 .portfolio-btn-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .portfolio-btn {
   color: var(--main-text-color);
